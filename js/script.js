@@ -1,8 +1,11 @@
 function init() {
+    //add your javascript between these two lines of code
     function alertFunction() {
-        var txt = document.getElementById("entryinput").value;
-        alert("Mbargou Gueye: + txt");
-        document.getElementById("textoutput").innerHTML =txt
+        alert("Mbargou Gueye: ' + inputForm.value");
+    }
+    function setText(){
+        var outputText = document.getElementById('textoutput');
+        outputText.innerHTML = "<h2>" = inputForm.value + "</h2>";
     }
     var button = document.getElementById('entrybutton');
     button.addEventListener('click', alertFunction);
