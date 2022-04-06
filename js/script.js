@@ -7,6 +7,7 @@ function init() {
         var outputText = document.getElementById('textoutput');
         outputText.innerHTML = "<h2>" = inputForm.value + "</h2>";
     }
+    var alertDiv = document.getElementById('textoutput');
     var button = document.getElementById('entrybutton');
     button.addEventListener('click', alertFunction);
 
