@@ -10,6 +10,6 @@ function init() {
     var alertDiv = document.getElementById('textoutput');
     var inputForm = document.getElementById('entrybutton');
     alertDiv.addEventListener('click', alertFunction);
-    alertDiv.addEventListener('click',setText);
+    alertDiv.addEventListener('click',setText)
 }
 window.addEventListener('load', init);
