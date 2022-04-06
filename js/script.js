@@ -1,7 +1,7 @@
 function init() {
     //add your javascript between these two lines of code
     function alertFunction(){
-        alert("Mbargou Gueye:  + inputForm.value");
+        alert('Mbargou Gueye: ' + inputForm.value);
     }
     function setText(){
         var outputText = document.getElementById('textoutput');
