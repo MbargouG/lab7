@@ -9,7 +9,7 @@ function init() {
     }
     var alertDiv = document.getElementById('textoutput');
     var inputForm = document.getElementById('entrybutton');
-    button.addEventListener('click', alertFunction);
-
+    alertDiv.addEventListener('click', alertFunction);
+    alertDiv.addEventListener('click',setText);
 }
 window.addEventListener('load', init);
